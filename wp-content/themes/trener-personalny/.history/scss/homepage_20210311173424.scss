@@ -1,0 +1,76 @@
+.button-main-hero{
+     a{
+         padding: 5px 15px;
+     }
+}
+.main-hero-first{
+    height: 100%;
+}
+.text-p-main-hero{
+    text-align: center;
+    font-size: 32px;
+    max-width: 80%;
+    margin: 0 auto;
+    .elementor-text-editor{
+        font-weight: bold;
+    }
+}
+.info-about-live{
+    h3{
+        margin: 50px auto 40px;
+        display: block;
+    }
+}
+
+.tnp-subscription label {
+    padding: 5px 0 10px !important;
+}
+
+.tnp-subscription input[type=text],
+.tnp-subscription input[type=email]{
+    background-color: #fff !important;
+    height: 40px !important;
+}
+
+.tnp-subscription input.tnp-submit {
+    border-bottom: 1px solid #FFA000 !important;
+    padding: 10px 15px !important;
+    background: ;
+}
+
+.cooperation-h2-height{
+    margin-bottom: 50px;
+}
+.counter-section-img-bg{
+    background-attachment: fixed;
+    @include media-maxw-767{
+        background-attachment: unset;
+    }
+}
+.elementor-element-3e490ce{
+    .elementor-column{
+        .elementor-element{
+            .elementor-text-editor{
+                position: relative;
+                &::before{
+                    content: "\f10d";
+                    font-family: "Font Awesome 5 Free";
+                    font-weight: 600;
+                    position: absolute;
+                    left: -8%;
+                    color: rgba(0,0,0,0.2);
+                    font-size: 30px;
+                    @include media-maxw-767{
+                        left: -3%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-height:660px){
+    .elementor-element-ab38d75, .elementor-element-48aefa5, .elementor-element-b3bd60a, .elementor-element-8f89912{
+        text-align: right!important;
+    }
+}

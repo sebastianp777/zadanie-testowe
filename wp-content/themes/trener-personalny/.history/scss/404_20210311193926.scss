@@ -1,0 +1,15 @@
+.error404{
+    .header{
+        background: #000;
+        width: 100%;
+        padding-top: 0;
+        .nav{
+            width: 90%;
+        }
+    }
+    .site-content{
+        #notfound{
+            min-height: calc(100vh - 111px);
+        }
+    }
+}

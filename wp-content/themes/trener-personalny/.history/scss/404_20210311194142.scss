@@ -1,0 +1,29 @@
+.error404{
+    .header{
+        background: #000;
+        width: 100%;
+        padding-top: 0;
+        .nav{
+            width: 90%;
+        }
+    }
+    .site-content{
+        #notfound{
+            min-height: calc(100vh - 112px);
+            .notfound{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: calc(100vh - 112px);
+            }
+            .notfound-404{
+                color: #000;
+                h1{
+                    text-align: center;
+                    font-size: ;
+                }
+
+            }
+        }
+    }
+}
